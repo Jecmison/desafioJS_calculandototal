@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.calculadora {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.fondo {
+    background-color: #6b8e23;
+    width: 380px;
+    height: 470px;
+    border-radius: 5%;
+}
+
+.fondo img {
+    width: 75%;
+    align-items: center;
+    display: flex;
+    margin-left: 13%;
+    padding-top: 5%;
+}
+
+.fondo h2 {
+    color: white;
+    text-align: center;
+    font-size: 120%;
+    margin-top: 1px;
+    margin-bottom: 30px;
+
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.items p {
+    color: white;
+    font-weight: bold;
+    padding-top: 2% 0% 2% 0%;
+    text-align: left;
+}
+
+.prec {
+    padding-left: 16%;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.items input {
+    border-radius: 15px;
+    padding: 10px 10px;
+    width: 70%;
+}
+
+.boton {
+    padding: 25px;
+    text-align: center;
+}
+
+.boton button {
+    background-color: rgb(194, 163, 52);
+    color: white;
+    border-radius: 10px;
+    width: 160px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/*casillas del total*/
+
+.totales {
+    padding-top: 125px;
+    padding-left: 20px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 470px;
+    width: 215px;
+    background-color: white;
+    color: #6b8e23;
+    border: 1px solid #6b8e23;
+    border-radius: 8px;
+    align-items: flex-start;
+    font-size: 20px;
+}
+
+.color {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+
+}
+
+.colortot {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #352e2e;
+    background-color: #fff;
+    border-radius: 50%;
+}
